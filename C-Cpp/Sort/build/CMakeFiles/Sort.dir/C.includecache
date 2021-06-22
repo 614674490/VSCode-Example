@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/config.h
+stdio.h
+../include/stdio.h
+stdlib.h
+../include/stdlib.h
+string.h
+../include/string.h
+
+../include/sort.h
+config.h
+../include/config.h
+
+D:/VS_Code_program/Sort/source/main.c
+sort.h
+D:/VS_Code_program/Sort/source/sort.h
+
+D:/VS_Code_program/Sort/source/sort.c
+sort.h
+D:/VS_Code_program/Sort/source/sort.h
+time.h
+D:/VS_Code_program/Sort/source/time.h
+

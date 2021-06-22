@@ -1,0 +1,27 @@
+[
+{
+  "directory": "D:/VS_Code_program/C-C++/BinaryTree/build",
+  "command": "E:\\mingw64\\bin\\gcc.exe  @CMakeFiles/BinaryTree.dir/includes_C.rsp -g   -o CMakeFiles\\BinaryTree.dir\\source\\binarytree.c.obj   -c D:\\VS_Code_program\\C-C++\\BinaryTree\\source\\binarytree.c",
+  "file": "D:/VS_Code_program/C-C++/BinaryTree/source/binarytree.c"
+},
+{
+  "directory": "D:/VS_Code_program/C-C++/BinaryTree/build",
+  "command": "E:\\mingw64\\bin\\gcc.exe  @CMakeFiles/BinaryTree.dir/includes_C.rsp -g   -o CMakeFiles\\BinaryTree.dir\\source\\config.c.obj   -c D:\\VS_Code_program\\C-C++\\BinaryTree\\source\\config.c",
+  "file": "D:/VS_Code_program/C-C++/BinaryTree/source/config.c"
+},
+{
+  "directory": "D:/VS_Code_program/C-C++/BinaryTree/build",
+  "command": "E:\\mingw64\\bin\\gcc.exe  @CMakeFiles/BinaryTree.dir/includes_C.rsp -g   -o CMakeFiles\\BinaryTree.dir\\source\\main.c.obj   -c D:\\VS_Code_program\\C-C++\\BinaryTree\\source\\main.c",
+  "file": "D:/VS_Code_program/C-C++/BinaryTree/source/main.c"
+},
+{
+  "directory": "D:/VS_Code_program/C-C++/BinaryTree/build",
+  "command": "E:\\mingw64\\bin\\gcc.exe  @CMakeFiles/BinaryTree.dir/includes_C.rsp -g   -o CMakeFiles\\BinaryTree.dir\\source\\queue.c.obj   -c D:\\VS_Code_program\\C-C++\\BinaryTree\\source\\queue.c",
+  "file": "D:/VS_Code_program/C-C++/BinaryTree/source/queue.c"
+},
+{
+  "directory": "D:/VS_Code_program/C-C++/BinaryTree/build",
+  "command": "E:\\mingw64\\bin\\gcc.exe  @CMakeFiles/BinaryTree.dir/includes_C.rsp -g   -o CMakeFiles\\BinaryTree.dir\\source\\stack.c.obj   -c D:\\VS_Code_program\\C-C++\\BinaryTree\\source\\stack.c",
+  "file": "D:/VS_Code_program/C-C++/BinaryTree/source/stack.c"
+}
+]

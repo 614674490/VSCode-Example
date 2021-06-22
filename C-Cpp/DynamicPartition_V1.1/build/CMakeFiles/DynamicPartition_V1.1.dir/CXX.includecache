@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Linkedlist.h
+assert.h
+-
+iomanip
+-
+iostream
+-
+vector
+-
+
+../include/algorithm.h
+Linkedlist.h
+../include/Linkedlist.h
+time.h
+-
+vector
+-
+
+D:/VSCode/C-Cpp/DynamicPartition_V1.1/source/algorithm.cpp
+algorithm.h
+D:/VSCode/C-Cpp/DynamicPartition_V1.1/source/algorithm.h
+
+D:/VSCode/C-Cpp/DynamicPartition_V1.1/source/main.cpp
+algorithm.h
+D:/VSCode/C-Cpp/DynamicPartition_V1.1/source/algorithm.h
+

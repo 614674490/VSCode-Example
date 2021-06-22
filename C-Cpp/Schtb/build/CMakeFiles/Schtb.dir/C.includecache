@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/config.h
+stdio.h
+../include/stdio.h
+stdlib.h
+../include/stdlib.h
+string.h
+../include/string.h
+
+../include/hash.h
+config.h
+../include/config.h
+schtb.h
+../include/schtb.h
+
+../include/schtb.h
+config.h
+../include/config.h
+
+D:/VS_Code_program/Schtb/source/hash.c
+hash.h
+D:/VS_Code_program/Schtb/source/hash.h
+math.h
+D:/VS_Code_program/Schtb/source/math.h
+
+D:/VS_Code_program/Schtb/source/main.c
+time.h
+D:/VS_Code_program/Schtb/source/time.h
+stdlib.h
+D:/VS_Code_program/Schtb/source/stdlib.h
+hash.h
+D:/VS_Code_program/Schtb/source/hash.h
+
+D:/VS_Code_program/Schtb/source/schtb.c
+schtb.h
+D:/VS_Code_program/Schtb/source/schtb.h
+time.h
+D:/VS_Code_program/Schtb/source/time.h
+

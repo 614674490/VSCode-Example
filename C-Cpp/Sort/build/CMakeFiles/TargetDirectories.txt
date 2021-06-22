@@ -1,0 +1,3 @@
+D:/VS_Code_program/Sort/build/CMakeFiles/Sort.dir
+D:/VS_Code_program/Sort/build/CMakeFiles/edit_cache.dir
+D:/VS_Code_program/Sort/build/CMakeFiles/rebuild_cache.dir

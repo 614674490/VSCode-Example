@@ -1,0 +1,68 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "options": {
+        "cwd": "${workspaceRoot}/build"
+    },
+    "tasks": [
+        {
+            "label": "compile",
+            "type": "shell",
+            "command": "mingw32-make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "args": [],
+            "dependsOn": [
+                "link"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "link",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "-G",
+                "MinGW Makefiles",
+                "-DCMAKE_BUILD_TYPE=Debug",
+                ".."
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "build_1",
+            "type": "shell",
+            "command": ".\\build.bat", //Linux 下将.bat改为.sh
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build_2", //这里注意一下，见下文
+            "type": "shell", // 可以为shell或process，前者相当于先打开shell再输入命令，后者是直接运行命令
+            //"command": "E:\\codeblocks\\MinGW\\bin\\g++.exe", //单个文件编译
+            "command": "D:\\VS_Code_program\\test\\build.bat", //工程编译
+            "args": [
+                "-g",
+                "-Wall", // 开启额外警告
+                "${file}", //在哪个文件的视图上选择仿真，则选择哪个文件
+                "-o", // 指定输出文件名，不加该参数则默认输出a.exe，Linux下默认a.out
+                "${fileDirname}\\${fileBasenameNoExtension}.exe" //选择输出的文件名称，和前面的${file}是对应的，一般默认的名称就是前面的${file}.exe
+            ],
+            "options": {
+                "cwd": "E:\\codeblocks\\MinGW\\bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}

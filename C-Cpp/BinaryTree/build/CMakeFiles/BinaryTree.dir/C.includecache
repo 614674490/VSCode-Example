@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/binarytree.h
+config.h
+../include/config.h
+math.h
+../include/math.h
+
+../include/config.h
+stdio.h
+../include/stdio.h
+stdlib.h
+../include/stdlib.h
+string.h
+../include/string.h
+
+D:/VS_Code_program/C-C++/BinaryTree/source/main.c
+binarytree.h
+D:/VS_Code_program/C-C++/BinaryTree/source/binarytree.h
+
